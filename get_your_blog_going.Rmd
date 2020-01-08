@@ -65,7 +65,11 @@ I **strongly recommend** sticking with hugo-academic for your site, at least for
 
 Let's go ahead and do it by running the following: 
 ```{r, eval = FALSE}
-
+new_site(theme = "gcushen/hugo-academic", 
+         sample = TRUE, 
+         theme_example = TRUE, 
+         empty_dirs = TRUE,
+         to_yaml = TRUE)
 ```
 
 It may take a few moments to pull the theme. Notice that it shows up in your "Viewer" tab - and you can also have it pop-out into a browser window!  
